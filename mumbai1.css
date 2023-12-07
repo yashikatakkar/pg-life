@@ -1,0 +1,170 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo
+{
+    width:100px;
+    cursor:pointer;
+    background-color: white;
+    padding-left:1%;
+}
+.second
+{
+    overflow:hidden;
+    background-color: #808080;
+    width:100%;
+    margin:auto;
+}
+a:hover,.active a
+{
+    background-color:white;
+}
+.column
+{
+    display:inline-block;
+    margin:10px 10px 10px 10px;
+    color:white;
+    font-size:20px;
+}
+.info
+{
+    margin-left:20%;
+    margin-top:2.5%;
+}
+.abc
+{
+    color:#808080;
+}
+.a{
+    width:10px;
+    background-color: white;
+}
+.b{
+    width:25px;
+    background-color: white;
+}
+.navbar ul li
+{
+    list-style:none;
+    display:inline-block;
+    background-color: white;
+    padding-top:20px;
+    color:#808080;
+    padding-bottom:1px;
+}
+li
+{
+    float:left;
+    border-right: solid #fff;
+    padding-right:20px;
+}
+a
+{
+    display:block;
+    color:#fff;
+    text-decoration: none;
+    size:100px;
+}
+.third
+{
+    margin-left:20%;
+}
+.ab
+{
+    width:50px;
+}
+.fourth
+{
+    margin-left:20%;
+}
+.xy
+{
+    text-decoration: none;
+}
+.bc
+{
+    font-size:30px;
+}
+.cd
+{
+    width:100%;
+    margin:auto;
+    height:500px;
+}
+.fifth
+{
+    overflow:hidden;
+    background-color:#fffcf3;
+    width:100%;
+    margin-top:2.5%;
+}
+.sixth
+{
+    margin-left:20%;
+    margin-top:2.5%;
+    margin-bottom:2.5%;
+}
+.seventh
+{
+    display:inline-block;
+    justify-content:space-between;
+    width:20%;
+}
+.twelve
+{
+    margin-left:20%;
+    margin-top:3%;
+}
+.twelve p
+{
+    margin-right:20%;
+}
+.de{
+    text-decoration:none;
+    color:white;
+}
+.navbar ul li a
+{
+    text-decoration:none;
+    color: black;
+    font-size:15px;
+}
+.footer {
+    background-color: #333333;
+    font-size: 13px;
+}
+
+.footer-container {
+    padding: 24px;
+}
+
+.footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-city {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .footer-city {
+        width: 100%;
+    }
+}
+
+.footer-city a {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    color: #a9a9a9;
+    text-align: center;
+    padding-top: 24px;
+}
